@@ -18,23 +18,10 @@
                 <th>
                     @Html.DisplayNameFor(model => model.PlaceName)
                 </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Vehicle)
-                </th>
-                 <th>
-                    @Html.DisplayNameFor(model => model.Agent)
-                </th>
-                 <th>
-                    @Html.DisplayNameFor(model => model.Guide)
-                </th>
-                 <th>
-                    @Html.DisplayNameFor(model => model.Hotel)
-                </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
+                </tr>
+                </thead>
+                 <tbody>
+                @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.PlaceID)

@@ -16298,6 +16298,11 @@
   "RootNamespace": "IS",
   "Documents": [
     {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Place\\Create.cshtml",
+      "TargetPath": "Views\\Place\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -16308,8 +16313,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Agent\\Create.cshtml",
+      "TargetPath": "Views\\Agent\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Guide\\Index.cshtml",
       "TargetPath": "Views\\Guide\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Vehicle\\Create.cshtml",
+      "TargetPath": "Views\\Vehicle\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16318,13 +16333,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Guide\\Create.cshtml",
+      "TargetPath": "Views\\Guide\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Place\\Details.cshtml",
+      "TargetPath": "Views\\Place\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Guide\\Delete.cshtml",
+      "TargetPath": "Views\\Guide\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Agent\\Delete.cshtml",
+      "TargetPath": "Views\\Agent\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16338,6 +16373,26 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Hotel\\Create.cshtml",
+      "TargetPath": "Views\\Hotel\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Guide\\Details.cshtml",
+      "TargetPath": "Views\\Guide\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Customer\\Delete.cshtml",
+      "TargetPath": "Views\\Customer\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Agent\\Details.cshtml",
+      "TargetPath": "Views\\Agent\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Hotel\\Index.cshtml",
       "TargetPath": "Views\\Hotel\\Index.cshtml",
       "FileKind": "mvc"
@@ -16345,6 +16400,26 @@
     {
       "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Place\\Index.cshtml",
       "TargetPath": "Views\\Place\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Hotel\\Details.cshtml",
+      "TargetPath": "Views\\Hotel\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Vehicle\\Delete.cshtml",
+      "TargetPath": "Views\\Vehicle\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Customer\\Create.cshtml",
+      "TargetPath": "Views\\Customer\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Vehicle\\Details.cshtml",
+      "TargetPath": "Views\\Vehicle\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16358,8 +16433,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Customer\\Details.cshtml",
+      "TargetPath": "Views\\Customer\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Hotel\\Delete.cshtml",
+      "TargetPath": "Views\\Hotel\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\Views\\Place\\Delete.cshtml",
+      "TargetPath": "Views\\Place\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,0 +1,36 @@
+@model WowRoads.Models.Guide
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GuideID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GuideID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LastNameGuide)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LastNameGuide)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FirstNameGuide)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FirstNameGuide)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.GuideID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

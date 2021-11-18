@@ -1,0 +1,44 @@
+@model WowRoads.Models.Vehicle
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Vehicle</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="VehicleID" class="control-label"></label>
+                <input asp-for="VehicleID" class="form-control" />
+                <span asp-validation-for="VehicleID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleBrand" class="control-label"></label>
+                <input asp-for="VehicleBrand" class="form-control" />
+                <span asp-validation-for="VehicleBrand" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleYear" class="control-label"></label>
+                <input asp-for="VehicleYear" class="form-control" />
+                <span asp-validation-for="VehicleYear" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="VehicleType" class="control-label"></label>
+                <input asp-for="VehicleType" class="form-control" />
+                <span asp-validation-for="VehicleType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

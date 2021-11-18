@@ -10,10 +10,11 @@ namespace WowRoads.Models
         public string PlaceName { get; set; }
 
         
-        public Vehicle Vehicle{ get; set; }
-        public Agent Agent{ get; set; }
-        public Guide Guide{ get; set; }
-        public Hotel Hotel{ get; set; }
+        public ICollection<Vehicle> Vehicle{ get; set; }
+        public ICollection<Agent> Agent{ get; set; }
+        public ICollection<Guide> Guide{ get; set; }
+        public ICollection<Hotel> Hotel{ get; set; }
+        
         
         
     }
