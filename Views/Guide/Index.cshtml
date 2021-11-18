@@ -1,0 +1,47 @@
+@model IEnumerable<WowRoads.Models.Guide>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.GuideID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstNameGuide)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastNameGuide)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuideID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstNameGuide)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastNameGuide)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.GuideID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.GuideID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.GuideID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

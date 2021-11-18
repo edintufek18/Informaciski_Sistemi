@@ -1,0 +1,65 @@
+@model IEnumerable<WowRoads.Models.Place>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.PlaceID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PlaceName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Vehicle)
+                </th>
+                 <th>
+                    @Html.DisplayNameFor(model => model.Agent)
+                </th>
+                 <th>
+                    @Html.DisplayNameFor(model => model.Guide)
+                </th>
+                 <th>
+                    @Html.DisplayNameFor(model => model.Hotel)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlaceID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlaceName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vehicle)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.Agent)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.Guide)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.Hotel)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PlaceID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PlaceID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PlaceID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

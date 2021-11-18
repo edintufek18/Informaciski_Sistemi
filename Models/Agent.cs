@@ -7,9 +7,9 @@ namespace WowRoads.Models
 {
     public class Agent
     {
-        public int CustomerID { get; set; }
-        public string LastName { get; set; }
-        public string FirstMidName { get; set; }
+        public int AgentID { get; set; }
+        public string AgentLastName { get; set; }
+        public string AgentFirstName { get; set; }
      
         
         public ICollection<Place> Place { get; set; }

@@ -8,6 +8,7 @@ namespace WowRoads.Models
     public class Place{
         public int PlaceID { get; set; }
         public string PlaceName { get; set; }
+
         
         public Vehicle Vehicle{ get; set; }
         public Agent Agent{ get; set; }

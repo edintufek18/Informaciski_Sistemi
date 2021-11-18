@@ -8,8 +8,8 @@ namespace WowRoads.Models
     public class Guide
     {
         public int GuideID { get; set; }
-        public string LastName { get; set; }
-        public string FirstMidName { get; set; }
+        public string LastNameGuide { get; set; }
+        public string FirstNameGuide { get; set; }
      
         
         public ICollection<Place> Place { get; set; }
