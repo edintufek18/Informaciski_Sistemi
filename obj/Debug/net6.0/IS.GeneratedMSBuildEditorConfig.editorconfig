@@ -8,11 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IS
 build_property.RootNamespace = IS
-build_property.ProjectDir = C:\Nastasija\Drugi_Letnik\IS\WowRoads\
+build_property.ProjectDir = c:\Nastasija\Drugi_Letnik\IS\WowRoads\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Nastasija\Drugi_Letnik\IS\WowRoads
+build_property.MSBuildProjectDirectory = c:\Nastasija\Drugi_Letnik\IS\WowRoads
 build_property._RazorSourceGeneratorDebug = 
 
 [c:/Nastasija/Drugi_Letnik/IS/WowRoads/Views/Agent/Create.cshtml]
