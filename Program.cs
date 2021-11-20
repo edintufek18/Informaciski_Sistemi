@@ -1,14 +1,20 @@
 using WowRoads.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using WowRoads.Models;
 
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("DataContext");
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<DataContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("DataContext")));
-
+//builder.Services.AddDbContext<DataContext>(options =>
+       // options.UseSqlServer(builder.Configuration.GetConnectionString("DataContext")));
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<DataContext>();builder.Services.AddDbContext<DataContext>(options =>
+    options.UseSqlServer(connectionString));
 var app = builder.Build();
 
 CreateDbIfNotExists(app);
@@ -25,12 +31,14 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
+
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+    app.MapRazorPages();
 
 app.Run();
 

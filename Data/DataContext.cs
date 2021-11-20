@@ -1,11 +1,16 @@
 using WowRoads.Models;
 using Microsoft.EntityFrameworkCore;
+ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 
 namespace WowRoads.Data
 {
-    public class DataContext : DbContext
-    {
+    //public class DataContext : DbContext
+    //{
+
+        public class DataContext : IdentityDbContext<ApplicationUser>
+        {
+
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
         }
@@ -20,15 +25,18 @@ namespace WowRoads.Data
 
         protected void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Agent>().ToTable("Agent");
             modelBuilder.Entity<Place>().ToTable("Place");
             modelBuilder.Entity<Customer>().ToTable("Customer");
-            modelBuilder.Entity<Hotel>().ToTable("Hotels");
+            modelBuilder.Entity<Hotel>().ToTable("Hotel");
             modelBuilder.Entity<Vehicle>().ToTable("Vehicle");
             modelBuilder.Entity<Guide>().ToTable("Guide");
-
+           
         }
 
     }  
-        
+    
 }
+        
+//}

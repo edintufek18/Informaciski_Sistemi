@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edint\\Desktop\\Informaciski_Sistemi-1\\IS.csproj": {}
+    "C:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\IS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edint\\Desktop\\Informaciski_Sistemi-1\\IS.csproj": {
+    "C:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\IS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edint\\Desktop\\Informaciski_Sistemi-1\\IS.csproj",
+        "projectUniqueName": "C:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\IS.csproj",
         "projectName": "IS",
-        "projectPath": "C:\\Users\\edint\\Desktop\\Informaciski_Sistemi-1\\IS.csproj",
-        "packagesPath": "C:\\Users\\edint\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edint\\Desktop\\Informaciski_Sistemi-1\\obj\\",
+        "projectPath": "C:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\IS.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\edint\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -40,13 +40,25 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.0-rc.2.21480.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0-rc.2.21480.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.0-rc.2.21480.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.0, )"
             }
