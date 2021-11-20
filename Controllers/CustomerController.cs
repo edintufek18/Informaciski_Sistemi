@@ -7,9 +7,13 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WowRoads.Data;
 using WowRoads.Models;
+using Microsoft.AspNetCore.Authorization;
+
+
 
 namespace WowRoads.Controllers
 {
+    //[Authorize]
     public class CustomerController : Controller
     {
         private readonly DataContext _context;
@@ -69,8 +73,11 @@ namespace WowRoads.Controllers
         }
 
         // GET: Students/Edit/5
+        
         public async Task<IActionResult> Edit(int? id)
         {
+            
+            
             if (id == null)
             {
                 return NotFound();
