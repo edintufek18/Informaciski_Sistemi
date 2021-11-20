@@ -15,7 +15,7 @@ namespace WowRoads.Models
         public String VehicleType { get; set; }
 
 
-        public ICollection<Customer> Customer { get; set; }
+        public ICollection<Customer>? Customer { get; set; }
         public ICollection<Place>? Place { get; set; }
     }
 }

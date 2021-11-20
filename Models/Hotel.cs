@@ -12,7 +12,7 @@ namespace WowRoads.Models
     {
         
         public int HotelID { get; set; }
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public Stars? Stars { get; set; }
 
         public ICollection<Place>? Place { get; set; }

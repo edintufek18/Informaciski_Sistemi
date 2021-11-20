@@ -12,8 +12,8 @@ using WowRoads.Data;
 namespace IS.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20211120175024_AppUser")]
-    partial class AppUser
+    [Migration("20211120205816_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -400,7 +400,6 @@ namespace IS.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("HotelID"), 1L, 1);
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("Stars")
