@@ -106,6 +106,7 @@ namespace IS.Migrations
                 },
                 constraints: table =>
                 {
+
                     table.PrimaryKey("PK_Place", x => x.PlaceID);
                     table.ForeignKey(
                         name: "FK_Place_Agent_AgentID",
@@ -125,14 +126,14 @@ namespace IS.Migrations
                         principalTable: "Hotel",
                         principalColumn: "HotelID",
                         onDelete: ReferentialAction.Cascade);
-                    /*
-                    table.ForeignKey(
+
+                 /*   table.ForeignKey(
                         name: "FK_Place_Vehicle_VehicleID",
                         column: x => x.VehicleID,
                         principalTable: "Vehicle",
                         principalColumn: "VehicleID",
                         onDelete: ReferentialAction.NoAction);
-                        */
+                    */
                 });
 
             migrationBuilder.CreateIndex(

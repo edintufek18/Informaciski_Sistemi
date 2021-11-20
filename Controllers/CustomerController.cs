@@ -54,11 +54,14 @@ namespace WowRoads.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         //[ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("FirstMidName,LastName,CustomerID")] Customer customer)
+        public async Task<IActionResult> Create([Bind("FirstMidName,LastName")] Customer customer)
         {
+        
+
             if (ModelState.IsValid)
+
             {
-                _context.Add(customer);
+                _context.Customer.Add(customer);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

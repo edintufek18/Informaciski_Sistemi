@@ -12,6 +12,6 @@ namespace WowRoads.Models
         public string FirstNameGuide { get; set; }
      
         
-        public ICollection<Place> Place { get; set; }
+        public ICollection<Place>? Place { get; set; }
     }
 }

@@ -10,9 +10,9 @@ namespace WowRoads.Models
         public int CustomerID { get; set; }
         public string LastName { get; set; }
         public string FirstMidName { get; set; }
-     
-        
-        public ICollection<Vehicle> Vehicle { get; set; }
-        public ICollection<Agent> Agent { get; set; }
+
+
+        public ICollection<Vehicle>? Vehicle { get; set; }
+        public ICollection<Agent>? Agent { get; set; }
     }
 }

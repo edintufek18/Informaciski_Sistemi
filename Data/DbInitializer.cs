@@ -19,28 +19,29 @@ namespace WowRoads.Data
 
             var customers = new Customer[]
             {
-                
-                new Customer{FirstMidName="A",LastName="E",CustomerID=1},
-                new Customer{FirstMidName="B",LastName="F",CustomerID=2},
-                new Customer{FirstMidName="C",LastName="G",CustomerID=3},
-                new Customer{FirstMidName="D",LastName="H",CustomerID=4},
-                new Customer{FirstMidName="I",LastName="J",CustomerID=5},
-               
+
+                new Customer{FirstMidName="A",LastName="E"},
+                new Customer{FirstMidName="B",LastName="F"},
+                new Customer{FirstMidName="C",LastName="G"},
+                new Customer{FirstMidName="D",LastName="H"},
+                new Customer{FirstMidName="I",LastName="J"},
+
             };
+
 
             context.Customer.AddRange(customers);
             context.SaveChanges();
 
             var agent = new Agent[]
             {
-                new Agent{AgentFirstName="AA",AgentLastName="BB",AgentID=11},
-                new Agent{AgentFirstName="CC",AgentLastName="DD",AgentID=22},
-                new Agent{AgentFirstName="EE",AgentLastName="FF",AgentID=33},
-                new Agent{AgentFirstName="GG",AgentLastName="HH",AgentID=44},
+                new Agent{AgentFirstName="AA",AgentLastName="BB"},
+                new Agent{AgentFirstName="CC",AgentLastName="DD"},
+                new Agent{AgentFirstName="EE",AgentLastName="FF"},
+                new Agent{AgentFirstName="GG",AgentLastName="HH"},
 
 
 
-                
+
             };
 
             context.Agent.AddRange(agent);
@@ -48,12 +49,12 @@ namespace WowRoads.Data
 
             var vehicle = new Vehicle[]
             {
-                new Vehicle{VehicleID=111,VehicleType="AAA",VehicleBrand="BBB",VehicleYear=2020},
-                new Vehicle{VehicleID=222,VehicleType="BBB",VehicleBrand="CCC",VehicleYear=2021},
-                new Vehicle{VehicleID=333,VehicleType="DDD",VehicleBrand="EEE",VehicleYear=2022},
-                new Vehicle{VehicleID=111,VehicleType="FFF",VehicleBrand="HHH",VehicleYear=2019},
+                new Vehicle{VehicleType="AAA",VehicleBrand="BBB",VehicleYear=2020},
+                new Vehicle{VehicleType="BBB",VehicleBrand="CCC",VehicleYear=2021},
+                new Vehicle{VehicleType="DDD",VehicleBrand="EEE",VehicleYear=2022},
+                new Vehicle{VehicleType="FFF",VehicleBrand="HHH",VehicleYear=2019},
 
-                
+
             };
 
             context.Vehicle.AddRange(vehicle);
@@ -61,13 +62,13 @@ namespace WowRoads.Data
 
             var hotel = new Hotel[]
             {
-                new Hotel{HotelID=1111,Name="AAAA",Stars=Stars.One},
-                new Hotel{HotelID=2222,Name="BBBB",Stars=Stars.Two},
-                new Hotel{HotelID=3333,Name="CCCC",Stars=Stars.Three},
-                new Hotel{HotelID=4444,Name="DDDD",Stars=Stars.Four},
-                new Hotel{HotelID=5555,Name="EEEE",Stars=Stars.Five},
-                
-                
+                new Hotel{Name="AAAA",Stars=Stars.One},
+                new Hotel{Name="BBBB",Stars=Stars.Two},
+                new Hotel{Name="CCCC",Stars=Stars.Three},
+                new Hotel{Name="DDDD",Stars=Stars.Four},
+                new Hotel{Name="EEEE",Stars=Stars.Five},
+
+
             };
             context.Hotel.AddRange(hotel);
             context.SaveChanges();
@@ -75,13 +76,13 @@ namespace WowRoads.Data
 
             var place = new Place[]
             {
-                new Place{PlaceID=11111,PlaceName="AAAAA"},
-                new Place{PlaceID=22222,PlaceName="BBBBB"},
-                new Place{PlaceID=33333,PlaceName="CCCCC"},
-                new Place{PlaceID=44444,PlaceName="DDDDD"},
-                new Place{PlaceID=55555,PlaceName="EEEEE"},
-                
-                
+                new Place{PlaceName="AAAAA"},
+                new Place{PlaceName="BBBBB"},
+                new Place{PlaceName="CCCCC"},
+                new Place{PlaceName="DDDDD"},
+                new Place{PlaceName="EEEEE"},
+
+
             };
             context.Place.AddRange(place);
             context.SaveChanges();
@@ -89,19 +90,19 @@ namespace WowRoads.Data
 
             var guide = new Guide[]
             {
-                new Guide{GuideID=111111,FirstNameGuide="AAAAAA"},
-                new Guide{GuideID=222222,FirstNameGuide="BBBBBB"},
-                new Guide{GuideID=333333,FirstNameGuide="CCCCCC"},
-                new Guide{GuideID=444444,FirstNameGuide="DDDDDD"},
-                new Guide{GuideID=555555,FirstNameGuide="EEEEEE"},
-                
-                
-                
+                new Guide{FirstNameGuide="AAAAAA"},
+                new Guide{FirstNameGuide="BBBBBB"},
+                new Guide{FirstNameGuide="CCCCCC"},
+                new Guide{FirstNameGuide="DDDDDD"},
+                new Guide{FirstNameGuide="EEEEEE"},
+
+
+
             };
             context.Guide.AddRange(guide);
             context.SaveChanges();
 
-
+            Console.WriteLine(agent.Length);
 
 
 

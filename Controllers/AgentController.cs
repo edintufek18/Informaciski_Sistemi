@@ -55,7 +55,7 @@ namespace WowRoads.Controllers
         [HttpPost]
         //[ValidateAntiForgeryToken]
         
-        public async Task<IActionResult> Create([Bind("AgentFirstName,AgentLastName,AgentID")] Agent agent)
+        public async Task<IActionResult> Create([Bind("AgentFirstName,AgentLastName")] Agent agent)
         {
             if (ModelState.IsValid)
             {

@@ -54,7 +54,7 @@ namespace WowRoads.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         //[ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("VehicleID,VehicleYear,VehicleBrand,VehicleType")] Vehicle vehicle)
+        public async Task<IActionResult> Create([Bind("VehicleYear,VehicleBrand,VehicleType")] Vehicle vehicle)
         {
             if (ModelState.IsValid)
             {
