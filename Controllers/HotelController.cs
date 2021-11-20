@@ -86,7 +86,7 @@ namespace WowRoads.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("HotelID,HotelName,Stars")] Hotel hotel)
+        public async Task<IActionResult> Edit(int id, [Bind("HotelID,Name,Stars")] Hotel hotel)
         {
             if (id != hotel.HotelID)
             {
@@ -102,7 +102,7 @@ namespace WowRoads.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!StudentExists(hotel.HotelID))
+                    if (!HotelExists(hotel.HotelID))
                     {
                         return NotFound();
                     }
@@ -145,7 +145,7 @@ namespace WowRoads.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool StudentExists(int id)
+        private bool HotelExists(int id)
         {
             return _context.Hotel.Any(e => e.HotelID == id);
         }
