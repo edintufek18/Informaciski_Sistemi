@@ -9900,19 +9900,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\edint\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\IS.csproj",
+      "projectUniqueName": "C:\\Users\\edint\\Desktop\\Informaciski_Sistemi\\IS.csproj",
       "projectName": "IS",
-      "projectPath": "C:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\IS.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Nastasija\\Drugi_Letnik\\IS\\WowRoads\\obj\\",
+      "projectPath": "C:\\Users\\edint\\Desktop\\Informaciski_Sistemi\\IS.csproj",
+      "packagesPath": "C:\\Users\\edint\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\edint\\Desktop\\Informaciski_Sistemi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\edint\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
