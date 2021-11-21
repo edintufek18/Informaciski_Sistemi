@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WowRoads.Data;
 using WowRoads.Models;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace WowRoads.Controllers
 {
@@ -44,6 +46,7 @@ namespace WowRoads.Controllers
         }
 
         // GET: Students/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -67,6 +70,7 @@ namespace WowRoads.Controllers
         }
 
         // GET: Students/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -118,6 +122,7 @@ namespace WowRoads.Controllers
         }
 
         // GET: Students/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

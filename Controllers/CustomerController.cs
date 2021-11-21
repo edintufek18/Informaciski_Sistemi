@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace WowRoads.Controllers
 {
-    //[Authorize]
+    
     public class CustomerController : Controller
     {
         private readonly DataContext _context;
@@ -48,6 +48,7 @@ namespace WowRoads.Controllers
         }
 
         // GET: Students/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -73,6 +74,7 @@ namespace WowRoads.Controllers
         }
 
         // GET: Students/Edit/5
+        [Authorize]
         
         public async Task<IActionResult> Edit(int? id)
         {
@@ -127,6 +129,7 @@ namespace WowRoads.Controllers
         }
 
         // GET: Students/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

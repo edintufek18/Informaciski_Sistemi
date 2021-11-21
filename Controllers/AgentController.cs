@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WowRoads.Data;
 using WowRoads.Models;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace WowRoads.Controllers
 {
@@ -43,7 +45,13 @@ namespace WowRoads.Controllers
             return View(agent);
         }
 
-        // GET: Students/Create
+        // GET: Agent/Create
+        [Authorize]
+        
+
+
+       
+
         public IActionResult Create()
         {
             return View();
@@ -55,8 +63,10 @@ namespace WowRoads.Controllers
         [HttpPost]
         //[ValidateAntiForgeryToken]
         
+        
         public async Task<IActionResult> Create([Bind("AgentFirstName,AgentLastName")] Agent agent)
         {
+             
             if (ModelState.IsValid)
             {
                 _context.Add(agent);
@@ -66,7 +76,9 @@ namespace WowRoads.Controllers
             return View(agent);
         }
 
-        // GET: Students/Edit/5
+        // GET: Agent/Edit/5
+        [Authorize]
+       
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -87,6 +99,7 @@ namespace WowRoads.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+         
         public async Task<IActionResult> Edit(int id, [Bind("AgentFirstName,AgentLastName,AgentID")] Agent agent)
         {
             if (id != agent.AgentID)
@@ -117,7 +130,8 @@ namespace WowRoads.Controllers
             return View(agent);
         }
 
-        // GET: Students/Delete/5
+        // GET: Agents/Delete/5
+         [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
