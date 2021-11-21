@@ -21,13 +21,13 @@ namespace WowRoads.Controllers
             _context = context;
         }
 
-        // GET: Agent
+        // GET: Guide
         public async Task<IActionResult> Index()
         {
             return View(await _context.Guide.ToListAsync());
         }
 
-        // GET: Agents/Details/5
+        // GET: Guides/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -45,14 +45,14 @@ namespace WowRoads.Controllers
             return View(guide);
         }
 
-        // GET: Students/Create
+        // GET: Guidess/Create
         [Authorize]
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Students/Create
+        // POST: Guides/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -69,7 +69,7 @@ namespace WowRoads.Controllers
             return View(guide);
         }
 
-        // GET: Students/Edit/5
+        // GET: Guides/Edit/5
         [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -86,7 +86,7 @@ namespace WowRoads.Controllers
             return View(guide);
         }
 
-        // POST: Students/Edit/5
+        // POST: Guides/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -121,7 +121,7 @@ namespace WowRoads.Controllers
             return View(guide);
         }
 
-        // GET: Students/Delete/5
+        // GET: Guides/Delete/5
         [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -140,7 +140,7 @@ namespace WowRoads.Controllers
             return View(guide);
         }
 
-        // POST: Students/Delete/5
+        // POST: Guides/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

@@ -20,13 +20,13 @@ namespace WowRoads.Controllers
             _context = context;
         }
 
-        // GET: Students
+        // GET: Hotels
         public async Task<IActionResult> Index()
         {
             return View(await _context.Hotel.ToListAsync());
         }
 
-        // GET: Students/Details/5
+        // GET: Hotels/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -44,14 +44,14 @@ namespace WowRoads.Controllers
             return View(hotel);
         }
 
-        // GET: Students/Create
+        // GET: Hotels/Create
         [Authorize]
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Students/Create
+        // POST: Hotels/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -67,7 +67,7 @@ namespace WowRoads.Controllers
             return View(hotel);
         }
 
-        // GET: Students/Edit/5
+        // GET: Hotels/Edit/5
         [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -84,7 +84,7 @@ namespace WowRoads.Controllers
             return View(hotel);
         }
 
-        // POST: Students/Edit/5
+        // POST: Hotels/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -119,7 +119,7 @@ namespace WowRoads.Controllers
             return View(hotel);
         }
 
-        // GET: Students/Delete/5
+        // GET: Hotels/Delete/5
         [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -138,7 +138,7 @@ namespace WowRoads.Controllers
             return View(hotel);
         }
 
-        // POST: Students/Delete/5
+        // POST: Hotels/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

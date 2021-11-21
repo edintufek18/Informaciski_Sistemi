@@ -21,13 +21,13 @@ namespace WowRoads.Controllers
             _context = context;
         }
 
-        // GET: Students
+        // GET: Vehicles
         public async Task<IActionResult> Index()
         {
             return View(await _context.Vehicle.ToListAsync());
         }
 
-        // GET: Students/Details/5
+        // GET: Vehicles/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -45,7 +45,7 @@ namespace WowRoads.Controllers
             return View(vehicle);
         }
 
-        // GET: Students/Create
+        // GET: Vehicles/Create
         [Authorize]
         public IActionResult Create()
         {
@@ -68,7 +68,7 @@ namespace WowRoads.Controllers
             return View(vehicle);
         }
 
-        // GET: Students/Edit/5
+        // GET: Vehicles/Edit/5
         [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -85,7 +85,7 @@ namespace WowRoads.Controllers
             return View(vehicle);
         }
 
-        // POST: Students/Edit/5
+        // POST: Vehicles/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -120,7 +120,7 @@ namespace WowRoads.Controllers
             return View(vehicle);
         }
 
-        // GET: Students/Delete/5
+        // GET: Vehicles/Delete/5
         [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -139,7 +139,7 @@ namespace WowRoads.Controllers
             return View(vehicle);
         }
 
-        // POST: Students/Delete/5
+        // POST: Vehicles/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
