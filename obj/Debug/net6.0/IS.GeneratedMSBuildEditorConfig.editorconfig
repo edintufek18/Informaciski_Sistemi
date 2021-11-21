@@ -8,325 +8,325 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IS
 build_property.RootNamespace = IS
-build_property.ProjectDir = C:\Users\edint\Desktop\Informaciski_Sistemi\
+build_property.ProjectDir = C:\Users\Admin\Desktop\WowRoads\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\edint\Desktop\Informaciski_Sistemi
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\WowRoads
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Lockout.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Login.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Logout.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/Register.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Error.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/_ViewImports.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/_ViewStart.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/About/Index.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Agent/Create.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Agent/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Agent/Delete.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Agent/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Agent/Details.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Agent/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Agent/Edit.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Agent/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Agent/Index.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Agent/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Customer/Create.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Customer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Customer/Delete.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Customer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Customer/Details.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Customer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Customer/Edit.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Customer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Customer/Index.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Guide/Create.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Guide/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpZGVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Guide/Delete.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Guide/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpZGVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Guide/Details.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Guide/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpZGVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Guide/Edit.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Guide/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpZGVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Guide/Index.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Guide/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpZGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Home/Index.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Home/Privacy.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Hotel/Create.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Hotel/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Hotel/Delete.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Hotel/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Hotel/Details.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Hotel/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Hotel/Edit.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Hotel/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Hotel/Index.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Hotel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Place/Create.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Place/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Place/Delete.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Place/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Place/Details.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Place/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Place/Edit.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Place/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Place/Index.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Place/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Shared/Error.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Shared/_LoginPartial.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Vehicle/Create.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Vehicle/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Vehicle/Delete.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Vehicle/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Vehicle/Details.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Vehicle/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Vehicle/Edit.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Vehicle/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Vehicle/Index.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Vehicle/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/_ViewImports.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/_ViewStart.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/edint/Desktop/Informaciski_Sistemi/Views/Shared/_Layout.cshtml]
+[c:/Users/Admin/Desktop/WowRoads/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ju7jdv4aun
