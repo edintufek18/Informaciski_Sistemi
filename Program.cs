@@ -5,7 +5,7 @@ using WowRoads.Models;
 
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("DataContext");
+var connectionString = builder.Configuration.GetConnectionString("AzureContext");
 
 
 // Add services to the container.
