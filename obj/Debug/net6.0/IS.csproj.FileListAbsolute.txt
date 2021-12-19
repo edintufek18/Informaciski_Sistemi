@@ -1064,3 +1064,7 @@ C:\Users\Admin\Desktop\WowRoads\obj\Debug\net6.0\IS.dll
 C:\Users\Admin\Desktop\WowRoads\obj\Debug\net6.0\ref\IS.dll
 C:\Users\Admin\Desktop\WowRoads\obj\Debug\net6.0\IS.pdb
 C:\Users\Admin\Desktop\WowRoads\obj\Debug\net6.0\IS.genruntimeconfig.cache
+C:\Users\edint\Desktop\Informaciski_Sistemi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\edint\Desktop\Informaciski_Sistemi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\edint\Desktop\Informaciski_Sistemi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\edint\Desktop\Informaciski_Sistemi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

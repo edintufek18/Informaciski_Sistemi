@@ -8,11 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IS
 build_property.RootNamespace = IS
-build_property.ProjectDir = C:\Users\edint\Desktop\Informaciski_Sistemi\
+build_property.ProjectDir = c:\Users\edint\Desktop\Informaciski_Sistemi\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\edint\Desktop\Informaciski_Sistemi
+build_property.MSBuildProjectDirectory = c:\Users\edint\Desktop\Informaciski_Sistemi
 build_property._RazorSourceGeneratorDebug = 
 
 [c:/Users/edint/Desktop/Informaciski_Sistemi/Areas/Identity/Pages/Account/AccessDenied.cshtml]
