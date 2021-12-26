@@ -14,9 +14,9 @@ namespace IS.Controllers_Api
     [ApiController]
     public class GuideApiController : ControllerBase
     {
-        private readonly DataContext _context;
+        private readonly AzureContext _context;
 
-        public GuideApiController(DataContext context)
+        public GuideApiController(AzureContext context)
         {
             _context = context;
         }

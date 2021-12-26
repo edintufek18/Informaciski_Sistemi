@@ -14,9 +14,9 @@ namespace IS.Controllers_Api
     [ApiController]
     public class HotelApiController : ControllerBase
     {
-        private readonly DataContext _context;
+        private readonly AzureContext _context;
 
-        public HotelApiController(DataContext context)
+        public HotelApiController(AzureContext context)
         {
             _context = context;
         }

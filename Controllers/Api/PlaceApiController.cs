@@ -14,9 +14,9 @@ namespace IS.Controllers_Api
     [ApiController]
     public class PlaceApiController : ControllerBase
     {
-        private readonly DataContext _context;
+        private readonly AzureContext _context;
 
-        public PlaceApiController(DataContext context)
+        public PlaceApiController(AzureContext context)
         {
             _context = context;
         }

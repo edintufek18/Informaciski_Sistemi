@@ -14,9 +14,9 @@ namespace IS.Controllers_Api
     [ApiController]
     public class VehicleApiController : ControllerBase
     {
-        private readonly DataContext _context;
+        private readonly AzureContext _context;
 
-        public VehicleApiController(DataContext context)
+        public VehicleApiController(AzureContext context)
         {
             _context = context;
         }

@@ -2,9 +2,15 @@ using WowRoads.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using WowRoads.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AzureContext>(options =>
+
+
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AzureContext")));
 var connectionString = builder.Configuration.GetConnectionString("AzureContext");
 
 
