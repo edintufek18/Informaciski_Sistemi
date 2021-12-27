@@ -7,9 +7,9 @@ using WowRoads.Models;
 
 namespace WowRoads.Data
 {
-    public class AzureContext : DbContext
+    public class DataContext : DbContext
     {
-        public AzureContext (DbContextOptions<AzureContext> options)
+        public DataContext (DbContextOptions<DataContext> options)
             : base(options)
         {
         }

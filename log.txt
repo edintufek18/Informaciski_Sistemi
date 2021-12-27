@@ -1,2 +1,5 @@
 sme vo data context 1 den;
   kaj sme 2 den ;
+
+
+  "DataContext": "Server=localhost;Database=Wowroads;User Id=sa;Password=yourStrong(!)Password;",

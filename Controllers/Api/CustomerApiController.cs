@@ -14,9 +14,9 @@ namespace IS.Controllers_Api
     [ApiController]
     public class CustomerApiController : ControllerBase
     {
-        private readonly AzureContext _context;
+        private readonly DataContext _context;
 
-        public CustomerApiController(AzureContext context)
+        public CustomerApiController(DataContext context)
         {
             _context = context;
         }

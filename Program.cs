@@ -7,10 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<AzureContext>(options =>
 
-
-    options.UseSqlServer(builder.Configuration.GetConnectionString("AzureContext")));
 var connectionString = builder.Configuration.GetConnectionString("AzureContext");
 
 
@@ -19,7 +16,8 @@ builder.Services.AddControllersWithViews();
 //builder.Services.AddDbContext<DataContext>(options =>
 // options.UseSqlServer(builder.Configuration.GetConnectionString("DataContext")));
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<DataContext>(); builder.Services.AddDbContext<DataContext>(options =>
+    .AddEntityFrameworkStores<DataContext>();
+     builder.Services.AddDbContext<DataContext>(options =>
      options.UseSqlServer(connectionString));
 builder.Services.AddSwaggerGen();
 var app = builder.Build();
