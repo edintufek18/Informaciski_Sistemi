@@ -1,4 +1,5 @@
 # Informaciski_Sistemi
+
 ČLANI SKUPINE:
 
 Nastasija Todorova 63190340
@@ -20,3 +21,5 @@ Aplikacija ponuja možnost za rating obiskanih krajev in zato drugi uporabniki s
 Podatke bomo dali v bazo podatkov, ki vsebuje podatke o uporabnikih, kot so ime, priimek, email, geslo ...
 
 Če pride do spremembe načrtov, bo imel uporabnik možnost preklicati rezervacijo
+
+hello
