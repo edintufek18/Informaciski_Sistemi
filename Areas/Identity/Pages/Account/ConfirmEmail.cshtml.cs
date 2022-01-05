@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using WowRoads.Models;
 
-namespace IS.Areas.Identity.Pages.Account
+namespace WowRoads.Areas.Identity.Pages.Account
 {
     public class ConfirmEmailModel : PageModel
     {

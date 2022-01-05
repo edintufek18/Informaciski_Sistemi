@@ -8,7 +8,7 @@ using WowRoads.Data;
 
 #nullable disable
 
-namespace IS.Migrations
+namespace WowRoads.Migrations
 {
     [DbContext(typeof(DataContext))]
     partial class DataContextModelSnapshot : ModelSnapshot

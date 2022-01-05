@@ -1064,3 +1064,4 @@ C:\Users\Admin\Desktop\WowRoads\obj\Debug\net6.0\IS.dll
 C:\Users\Admin\Desktop\WowRoads\obj\Debug\net6.0\ref\IS.dll
 C:\Users\Admin\Desktop\WowRoads\obj\Debug\net6.0\IS.pdb
 C:\Users\Admin\Desktop\WowRoads\obj\Debug\net6.0\IS.genruntimeconfig.cache
+C:\Users\edint\Desktop\Informaciski_Sistemi\obj\Debug\net6.0\IS.csproj.CopyComplete
