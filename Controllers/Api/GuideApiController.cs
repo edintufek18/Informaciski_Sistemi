@@ -7,11 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WowRoads.Data;
 using WowRoads.Models;
+using WowRoads.Filters;
 
 namespace IS.Controllers_Api
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ApiKeyAuth]
     public class GuideApiController : ControllerBase
     {
         private readonly DataContext _context;
