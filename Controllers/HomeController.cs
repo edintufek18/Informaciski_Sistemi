@@ -1,8 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using IS.Models;
+using WowRoads.Models;
+using Microsoft.Extensions.Logging;
 
-namespace IS.Controllers;
+namespace WowRoads.Controllers;
 
 public class HomeController : Controller
 {

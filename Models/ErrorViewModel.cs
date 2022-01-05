@@ -1,4 +1,4 @@
-namespace IS.Models;
+namespace WowRoads.Models;
 
 public class ErrorViewModel
 {

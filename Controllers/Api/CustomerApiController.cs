@@ -9,7 +9,9 @@ using WowRoads.Data;
 using WowRoads.Models;
 using WowRoads.Filters;
 
-namespace IS.Controllers_Api
+
+
+namespace WowRoads.Controllers.Api
 {
     [Route("api/[controller]")]
     [ApiController]

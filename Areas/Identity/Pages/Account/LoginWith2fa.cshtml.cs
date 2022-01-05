@@ -15,7 +15,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using WowRoads.Models;
 
-namespace IS.Areas.Identity.Pages.Account
+namespace WowRoads.Areas.Identity.Pages.Account
 {
     public class LoginWith2faModel : PageModel
     {

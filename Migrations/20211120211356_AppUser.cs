@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace IS.Migrations
+namespace WowRoads.Migrations
 {
     public partial class AppUser : Migration
     {

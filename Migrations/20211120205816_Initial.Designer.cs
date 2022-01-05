@@ -9,7 +9,7 @@ using WowRoads.Data;
 
 #nullable disable
 
-namespace IS.Migrations
+namespace WowRoads.Migrations
 {
     [DbContext(typeof(DataContext))]
     [Migration("20211120205816_Initial")]
