@@ -1,6 +1,7 @@
 using WowRoads.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.OpenApi.Models;
 using WowRoads.Models;
 
 
@@ -15,7 +16,11 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<DataContext>(); builder.Services.AddDbContext<DataContext>(options =>
      options.UseSqlServer(connectionString));
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c => {
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Travel log service API", Version = "v1" });
+});
 var app = builder.Build();
 
 CreateDbIfNotExists(app);
@@ -35,6 +40,7 @@ app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
 });
+app.UseSwagger(x => x.SerializeAsV2 = true);
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
