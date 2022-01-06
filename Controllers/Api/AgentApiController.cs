@@ -13,7 +13,7 @@ namespace WowRoads.Controllers.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    [ApiKeyAuth]
+  //  [ApiKeyAuth]
     public class AgentApiController : ControllerBase
     {
         private readonly DataContext _context;
