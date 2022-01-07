@@ -25,13 +25,8 @@ Podatke bomo dali v bazo podatkov, ki vsebuje podatke o uporabnikih, kot so ime,
 
 Mi dva Edin Tufek in Nastasija Todorova sva naredila eno mobilno aplikacijo WowRoads.
 
-Je podobna kot web-aplikaije.
-
-Lahko pogledaš mest.
-
-Lahko pogledaš hotelov.
-
-Lahko vstopiš v vrstu.
+To je aplikacija katera omogoča kakovostne potovalne storitve. V našo aplikacijo se lahko stranke lahko dodajajo v vrsto za čakanje za rezervacijo hotela. 
+Smo omogočali tudi storitev da stranki lahko pogledajo kateri hoteli so najboljši.
 
 ![269853894_1021384991745326_7957910471405662448_n](https://user-images.githubusercontent.com/94410828/148462547-a0d0e179-4cbf-412b-8a7c-3a18db1e8ada.jpg)
 ![269797359_643528457066221_6899424644463964969_n](https://user-images.githubusercontent.com/94410828/148462582-e09ce88b-536a-4aeb-ac88-00383c8cfa50.jpg)
